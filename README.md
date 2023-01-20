@@ -29,3 +29,4 @@ Instalar [Docker](https://www.docker.com) en una máquina Ubuntu remota mediante
 - [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 - [How To Install Docker Using Ansible](https://medium.com/codex/how-to-install-docker-using-ansible-84d40005169)
 - [Ansible - Alpine Linux](https://wiki.alpinelinux.org/wiki/Ansible)
+- [Docker for Windows: Dealing With Windows Line Endings](https://willi.am/blog/2016/08/11/docker-for-windows-dealing-with-windows-line-endings/)
