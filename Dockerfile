@@ -6,7 +6,7 @@ FROM alpine:${ALPINE_VERSION}
 WORKDIR /root
 
 # Instalar los paquetes necesarios
-RUN apk add ansible openssh
+RUN apk add ansible openssh bash
 
 # Copiar el script para crear la clave SSH
 COPY generar_clave.sh /usr/local/bin/generar_clave.sh
