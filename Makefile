@@ -30,7 +30,7 @@ ssh:
 	@docker compose run --rm ansible generar_clave.sh ${REMOTE_HOST}
 
 deploy:
-	@docker compose run --rm ansible ansible-playbook -i "${REMOTE_HOST}," playbook.yml --extra-vars "UBUNTU_RELEASE=${UBUNTU_RELEASE}"
+	@docker compose run --rm ansible ansible-playbook -i "${REMOTE_HOST}," playbook.yml --extra-vars "DEBIAN_RELEASE=${DEBIAN_RELEASE}"
 
 workspace:
 	@docker compose run --rm ansible /bin/sh
